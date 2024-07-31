@@ -1,0 +1,17 @@
+{
+  "name": "data-server",
+  "module": "index.js",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "start": "json-server --watch db.json  --port 9000"
+  },
+  "type": "module",
+  "dependencies": {
+    "json-server": "0.17.4"
+  }
+}
